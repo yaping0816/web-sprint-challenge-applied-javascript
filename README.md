@@ -79,3 +79,11 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 3. What is an event listener?
 4. Why would we convert a NodeList into an Array?
 5. What is a component?
+
+
+<!-- Object.keys -->
+- select all of the keys in the object and put these keys into a new array
+  
+
+<!-- Object.values -->
+- select all of the values in the object and put them into a new array

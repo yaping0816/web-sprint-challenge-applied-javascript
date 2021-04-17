@@ -74,8 +74,13 @@ const cardAppender = (selector) => {
     // });
 
     // cardsMaker(res.data.articles.bootstrap, selector);
-    Object.keys(res.data.articles).forEach(key =>{
-      cardsMaker(res.data.articles[key], selector);
+
+    // Object.keys(res.data.articles).forEach(key =>{
+    //   cardsMaker(res.data.articles[key], selector);
+    // })
+
+    Object.values(res.data.articles).forEach(value =>{
+      cardsMaker(value,selector);
     })
   })
   .catch(err =>{
