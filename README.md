@@ -81,9 +81,9 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 5. What is a component?
 
 
-<!-- Object.keys -->
+<!-- Object.keys() -->
 - select all of the keys in the object and put these keys into a new array
   
 
-<!-- Object.values -->
+<!-- Object.values() -->
 - select all of the values in the object and put them into a new array
